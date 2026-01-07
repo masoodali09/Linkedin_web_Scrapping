@@ -17,7 +17,7 @@ public class BrightDataConfig {
 
     @Value("${brightdata.api.url}")
     private String baseUrl;
-
+//test
     @Bean
     public WebClient brightDataWebClient() {
         return WebClient.builder()
