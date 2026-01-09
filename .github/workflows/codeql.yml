@@ -2,7 +2,7 @@ name: "CodeQL Advanced"
 
 on:
   push:
-    branches: [ "main" ]  # Add your default branch
+    branches: [ "test" ]  # Add your default branch
     paths-ignore:
       - "**/build/**"
       - "**/.gradle/**"
@@ -11,7 +11,7 @@ on:
       - "**/R.class"
       - "**/BuildConfig.*"
   pull_request:
-    branches: [ "main" ]  # Add your default branch
+    branches: [ "test" ]  # Add your default branch
     paths-ignore:
       - "**/build/**"
       - "**/.gradle/**"
